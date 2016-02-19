@@ -14,17 +14,27 @@
    margin: 0;
    width: 50%;
   }
+
 li {
   padding:6px;
+}
+
+.line-through {
+  text-decoration: line-through;
+
 }
  .list2 {
    position: relative;
    left: 300px;
    margin: 0;
    width: 300px;
+}
 
-
+ul {
+  list-style-type: none;
 }
 .footer {
+posiion: relative;
+top: 400px;
 
 }
