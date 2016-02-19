@@ -1,0 +1,40 @@
+.Lists {
+  background-image: url("lab-assets/list-bg.png");
+  background-repeat:no-repeat;
+  position: relative;
+  top: 35px;
+  left: 0
+  width: 50%;
+  height: 125%;
+  }
+
+ .list1 {
+   position: absolute;
+   left: 15px;
+   margin: 0;
+   width: 50%;
+  }
+
+li {
+  padding:6px;
+}
+
+.line-through {
+  text-decoration: line-through;
+
+}
+ .list2 {
+   position: relative;
+   left: 300px;
+   margin: 0;
+   width: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
+.footer {
+posiion: relative;
+top: 400px;
+
+}
