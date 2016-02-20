@@ -1,6 +1,5 @@
 
 body {
-  width: 960px;
   margin: auto;
   text-align: center;
 }
@@ -21,7 +20,7 @@ body {
 }
 
 .food {
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Delius Unicase';
   font-size: 8px;
   font-weight: bolder;
 }
@@ -39,6 +38,10 @@ img.header {
   right: 16px;
 }
 
+.pizza {
+
+}
+
 h1 {
   font-family: 'Carrois Gothic SC', sans-serif;
 }
@@ -47,43 +50,43 @@ a {
   text-decoration: none;
 }
 
-.Lists {
-  background-image: url("lab-assets/list-bg.png");
-  background-repeat:no-repeat;
-  position: relative;
-  top: 35px;
-  left: 0
-  width: 50%;
-  height: 125%;
-  }
-
- .list1 {
-   position: absolute;
-   left: 15px;
-   margin: 0;
-   width: 50%;
-  }
-
-li {
-  padding:6px;
-}
-
 .line-through {
   text-decoration: line-through;
+}
 
-}
+.list1 {
+  position: absolute;
+  left: 360px;
+  text-align: justify;
+  font-family: 'Patrick Hand',cursive;
+  font-size: 18px;
+  font-weight: lighter;
+  }
+
  .list2 {
-   position: relative;
-   left: 300px;
-   margin: 0;
-   width: 300px;
-}
+   position:absolute;
+   right: 370px;
+   text-align: justify;
+   background-image: url("lab-assets/list-bg.png");
+   background-repeat:no-repeat;
+   background-position:right;
+   font-family: 'Patrick Hand',cursive;
+   font-size: 18px;
+   font-weight: lighter;
+   }
 
 ul {
+  background-image: url("lab-assets/list-bg.png");
+  background-repeat:no-repeat;
+  background-position:left;
+  padding: 45px;
   list-style-type: none;
 }
-.footer {
-posiion: relative;
-top: 400px;
 
+li {
+  padding:10px;
+}
+
+.footer {
+  position: absolute;
 }
